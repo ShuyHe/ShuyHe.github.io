@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>在中国，每年有近五万名孩子死于意外伤害</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <script type="text/javascript" src="js/echarts.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style2.css" rel="stylesheet">
+
+    <!-- =======================================================
+    Template Name: Soon
+    Template URL: https://templatemag.com/soon-website-under-construction-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+    <div id="h">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+
+                </div>
+            </div>
+            <!--/row-->
+        </div>
+        <!--/container-->
+    </div>
+    <!--/H-->
+
+    <div id="xu">
+        <div class="xu-title">
+            <h2>阅读提示：</h2>
+        </div>
+        <div class="xu-text">
+            <ol>
+                <li>本文所指的“儿童”，年龄范围<strong>均为0-19岁。</strong><br />标题的“孩子”特指<strong>0-14岁</strong>，数据来源于<a href="http://news.163.com/18/0903/12/DQPEBL67000181IU.html">网易数读的报道《儿童频繁溺亡，大多数家长对溺水一无所知》。</a></li>
+                <li>本文死亡率均以1/10万为单位，如死亡率为9.5，表示这一人口中每年死去950人。</li>
+                <li>涉及引用和数据的部分均已标上<strong>超链接</strong>，供读者点击后跳转、参考。</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="top-text">
+            <p>一个寻常的清晨，你悠悠转醒，习惯性地打开微信，却收到一个噩耗：</p>
+            <p>7岁的表弟在水库游泳时，不慎溺亡。</p>
+            <p>你不禁想起了邻居家不满1岁的小女儿，在家中浴缸溺水而死；</p>
+            <p>想起一同长大的好朋友，15岁那年无照驾驶发生事故，落下了残疾；</p>
+            <p>想起小堂弟曾被裹在被子里差点窒息……</p>
+            <p>出门时，看见孩子们在小花坛边成群结队地游戏、跳舞，蹦蹦跳跳，阳光洒在他们稚嫩的脸庞上，好不快乐！</p>
+            <p>你心头一恸，会不会有一天，这里的其中一个孩子忽然就消失了？</p>
+            <p>仅仅因为一时疏忽，因为玩心大起，因为一个失败的建筑设计……尚且稚嫩的生命，便悄无声息地消逝于此。</p>
+            <p><strong>我们也许安稳地长大了，但我们的孩子们呢，也能如此幸运吗？</strong></p><br />
+            <p><button class="btn btn-conf btn-blue"><strong>进入正文</strong></button></p>
+        </div>
+        <!--/row-->
+    </div>
+    <!--/container-->
+
+    <div id="g">
+        <div class="container">
+            <div class="pa-title">
+                <h2>一、“飞来横祸”</h2>
+            </div>
+            <!--/row-->
+
+            <div class="text">
+                <p>儿童频繁遭受的“非故意伤害”，是一个全球性问题。</p>
+                <p><strong>“非故意伤害”即意外伤害(Unintentional Injury)</strong>，指突然发生的事件对人体造成的损伤，包括各种物理、化学和生物因素。其中包括溺水、跌落、烧烫伤、交通相关损伤、中毒和窒息及其他意外伤害(锐器伤、火器伤、机器伤、自然和环境伤害、挤压伤等)。</p>
+                <p><a href="http://www.who.int/violence_injury_prevention/child/injury/world_report/zh/">《世界儿童预防伤害报告》指出</a>，<strong>全世界每5秒就有1名15岁以下的儿童死亡</strong>，每年约95万名18岁以下儿童死于伤害和暴力，其中90%为意外伤害，即：<strong>每年约85.5万儿童死于意外伤害。</strong></p>
+                <p>另外，95%以上的儿童伤害死亡发生在低收入和中等收入国家；但在发达国家，伤害也已经占到了儿童死亡原因的四成。<strong>看似“发达”的日本、韩国、美国，每年可能因意外伤害死去的儿童也在1000~2400人之间不等。</strong></p>
+                <p>&nbsp;</p>
+            </div>
+            <!--/row-->
+
+            <div id="gra1">
+                <div id="tubiao" style="weight:500px;height:300px"></div>
+                <script type="text/javascript">
+                    // 基于准备好的dom，初始化echarts实例
+                    var myChart = echarts.init(document.getElementById('tubiao'));
+
+                    // 指定图表的配置项和数据
+                    var option = {
+                        color: ['#4183D7', '#FF9D8E', '#C1DCF9', '#FFE1D1', '#395469'],
+                        title: {
+                            text: '  ',
+                            subtext: '数据来源：日本厚生劳动省 / 韩国数据信息服务网站（KOSIS）/ 美国疾病预防和控制中心（CDC）',
+                            left: 'center'
+                        },
+                        tooltip: {
+                            trigger: 'axis',
+                            axisPointer: {
+                                type: 'cross',
+                                label: {
+                                    backgroundColor: '#6a7985'
+                                }
+                            }
+                        },
+                        legend: {
+                            data: ['韩国', '美国', '日本']
+                        },
+                        toolbox: {
+                            feature: {
+                                saveAsImage: {}
+                            }
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        xAxis: [{
+                            type: 'category',
+                            boundaryGap: false,
+                            data: ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016']
+                        }],
+                        yAxis: [{
+                            type: 'value'
+                        }],
+                        series: [{
+                            name: '韩国',
+                            type: 'line',
+                            areaStyle: {},
+                            data: [35.20, 30.00, 28.70, 24.30, 25.40, 22.60, 21.00, 19.00, 20.60, 15.20, 14.50]
+                        }, {
+                            name: '美国',
+                            type: 'line',
+                            areaStyle: {
+                                normal: {}
+                            },
+                            data: [14.28, 14.06, 12.35, 11.05, 10.52, 10.31, 9.85, 9.37, 9.29, 9.77, 10.14]
+                        }, {
+                            name: '日本',
+                            type: 'line',
+                            areaStyle: {
+                                normal: {}
+                            },
+                            data: [20.80, 19.10, 17.50, 16.70, 16.40, 33.30, 13.30, 12.60, 12.40, 11.60, 10.80]
+                        }]
+                    };
+
+                    // 使用刚指定的配置项和数据显示图表。
+                    myChart.setOption(option);
+                </script>
+                <div class="tubiao-text">
+                    <p>
+                        <center>[图1-1 日本、韩国、美国每年意外伤害死亡率（2006-2016）单位：1/10万]<br />（注：2011年3月11日，日本发生大地震，地震带来的伤害属于意外伤害中的“自然和环境伤害”，故该年日本意外死亡率较高。）</center>
+                    </p>
+                </div>
+
+            </div>
+            <!--/container-->
+        </div>
+        <!--/div-->
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="text">
+                <p>而中国，形势更为严峻。</p>
+                <p>仅在2010年，在所有因意外伤害死亡的中国人中，<strong>0-19岁儿童的死亡率高达232.91/10万，即2010年就有23291名儿童可能死于意外伤害。</strong></p>
+                <p>这意味着，<strong>每一天，“飞来横祸”都要带走至少63个孩子的生命，每过一个小时就有至少2个孩子死于意外。</strong></p>
+                <p>&nbsp;</p>
+            </div>
+        </div>
+        <div id="gra2">
+            <div id="tubiao2" style="weight:500px;height:300px"></div>
+            <script type="text/javascript">
+                // 基于准备好的dom，初始化echarts实例
+                var myChart = echarts.init(document.getElementById('tubiao2'));
+
+                // 指定图表的配置项和数据
+                var option = {
+                    color: ['#A8C6EC', '#86B0E5', '#6399DE', '#4183D7'],
+                    tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {
+                            type: 'shadow'
+                        }
+                    },
+                    title: {
+                        text: '  ',
+                        subtext: '数据来源：中国国家卫生和计划生育委员会',
+                        left: 'center'
+                    },
+                    legend: {
+                        data: ['0-4岁', '5-9岁', '10-14岁', '15-19岁']
+                    },
+                    toolbox: {
+                        show: true,
+                        feature: {
+                            mark: {
+                                show: true
+                            },
+                            dataView: {
+                                show: true,
+                                readOnly: false
+                            },
+                            magicType: {
+                                show: true,
+                                type: ['bar', 'stack']
+                            },
+                            restore: {
+                                show: true
+                            },
+                            saveAsImage: {
+                                show: true
+                            }
+                        }
+                    },
+                    calculable: true,
+                    xAxis: [{
+                        type: 'category',
+                        axisTick: {
+                            show: false
+                        },
+                        data: ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016']
+
+                    }],
+                    yAxis: [{
+                        type: 'value'
+                    }],
+                    series: [{
+                        name: '0-4岁',
+                        type: 'bar',
+                        barGap: 0,
+                        data: [42.76, 48.84, 34.06, 33.37, 32.64, 39.37, 47.03, 37.44, 32.7, 32.9, 30.68]
+                    }, {
+                        name: '5-9岁',
+                        type: 'bar',
+                        data: [9.34, 8.3, 5.95, 8.66, 8.53, 6.92, 9.79, 9.38, 9.11, 7.83, 7.3]
+                    }, {
+                        name: '10-14岁',
+                        type: 'bar',
+                        data: [7.1, 8.27, 6.35, 7.23, 6.51, 7.44, 8.94, 10.56, 9.14, 9.23, 8.03]
+                    }, {
+                        name: '15-19岁',
+                        type: 'bar',
+                        data: [9.4, 11.29, 7.41, 10.31, 12.5, 9.6, 10.56, 13.47, 11.86, 10.52, 8.57]
+                    }, ]
+                };
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.setOption(option);
+            </script>
+            <div class="tubiao-text">
+                <p>
+                    <center>[图1-2 中国各年龄段意外伤害死亡率对比（2010） 单位：1/10万] </center>
+                </p>
+            </div>
+
+        </div>
+        <!--/container-->
+    </div>
+    <!--/div-->
+
+    </div>
+    <!-- / contact -->
+
+
+    <div id="g">
+        <div class="container">
+            <div class="pa-title">
+                <h2 style="font-weight: bold">二、男孩更易“中招”</h2>
+            </div>
+            <!--/row-->
+
+            <div class="text">
+                <p>不论中、日、韩、美，<strong>男孩的意外死亡率总是远远高于女孩</strong>，是女孩的<strong>一倍左右</strong>。</p>
+                <div class="psimg">
+                    <p>
+                        <center><img src="img/2-1.gif" /></p>
+                    </center>
+                </div>
+            </div>
+            <div class="tubiao-text">
+                <p>
+                    <center>[图2-1 中国、日本、韩国、美国每年分性别的意外伤害死亡率（2006-2016）单位：1/10万]</center>
+                </p>
+            </div>
+
+            <div class="text">
+                <p><a href="http://www.jointpublishing.com/publishing/author-list/sun-yun-xiao/9789620430695.aspx">专家指出，在发育过程中，男孩出现发育失调症状的几率比女孩高3到4倍，发育中的男孩或显得过度活跃，或受到自闭症的困扰，或由于协调能力差，会比女孩更易遭受意外事故。</a></p>
+                <p>这点在交通伤害死亡率和溺水死亡率上尤其明显：</p>
+                <div class="psimg">
+                    <center><img src="img/2-2.gif" /></center>
+                </div>
+            </div>
+            <div class="tubiao-text">
+                <p>
+                    <center>[图2-2 中国、日本、韩国、美国分性别和类型的意外伤害死亡率（2006-2016平均值）单位：1/10万]</center>
+                </p>
+            </div>
+
+            <!--/row-->
+        </div>
+        <!--/container-->
+    </div>
+    <!--/div-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="pa-title">
+                <h2 style="font-weight: bold">三、“交通事故”“溺水”多发</h2>
+            </div>
+
+            <div class="text">
+                <p>事实上，不论男孩还是女孩，由于意外伤害死去的儿童，<strong>死因基本集中于“溺水”和“道路交通事故”。</strong></p>
+                <p>中、日、韩、美各国情况均如此：</p>
+                <p>&nbsp;</p>
+            </div>
+
+            <div id="gra3">
+                <div class="tubiao-title">
+                    <h2>中国</h2>
+                </div>
+                <div id="tubiao3" style="weight:500px;height:300px"></div>
+                <script type="text/javascript">
+                    // 基于准备好的dom，初始化echarts实例
+                    var myChart = echarts.init(document.getElementById('tubiao3'));
+
+                    // 指定图表的配置项和数据
+                    var option = {
+                        color: ['#4183D7', '#FF9D8E', '#C1DCF9', '#FFE1D1', '#395469'],
+                        title: {
+                            text: '  ',
+                            subtext: '数据来源：中国国家卫生和计划生育委员会',
+                            left: 'center'
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['交通事故', '溺水', '中毒', '跌落', '烧伤/火灾']
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        toolbox: {
+                            feature: {
+                                saveAsImage: {}
+                            }
+                        },
+                        xAxis: {
+                            type: 'category',
+                            data: ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016']
+                        },
+                        yAxis: {
+                            type: 'value'
+                        },
+                        series: [{
+                                name: '交通事故',
+                                type: 'line',
+                                step: 'middle',
+                                data: [18.1, 20.65, 12.91, 15.71, 24.56, 15.42, 17.75, 23.47, 22.61, 21.58, 16.44]
+                            }, {
+                                name: '溺水',
+                                type: 'line',
+                                step: 'middle',
+                                data: [14.72, 18.08, 13.14, 17.03, 21.98, 16.85, 22.75, 22.20, 18.76, 16.99, 15.98]
+                            },
+
+                            {
+                                name: '中毒',
+                                type: 'line',
+                                step: 'middle',
+                                data: [2.54, 2.14, 2.10, 2.35, 3.11, 1.37, 2.12, 3.17, 2.35, 2.47, 2.51]
+                            }, {
+                                name: '跌落',
+                                type: 'line',
+                                step: 'middle',
+                                data: [4.58, 6.80, 3.51, 4.26, 7.05, 5.33, 7.53, 7.45, 6.09, 6.32, 6.18]
+                            }, {
+                                name: '烧伤/火灾',
+                                type: 'line',
+                                step: 'middle',
+                                data: [0.95, 1.24, 0.48, 0.39, 0.34, 0.60, 0.74, 0.66, 0.57, 0.59, 0.86]
+                            },
+
+
+
+                        ]
+                    };
+                    // 使用刚指定的配置项和数据显示图表。
+                    myChart.setOption(option);
+                </script>
+                <p>&nbsp;</p>
+                <div class="tubiao-title">
+                    <h2>日本</h2>
+                </div>
+                <div id="tubiao4" style="weight:500px;height:300px"></div>
+                <script type="text/javascript">
+                    // 基于准备好的dom，初始化echarts实例
+                    var myChart = echarts.init(document.getElementById('tubiao4'));
+
+                    // 指定图表的配置项和数据
+                    var option = {
+                        color: ['#4183D7', '#FF9D8E', '#C1DCF9', '#FFE1D1', '#395469'],
+                        title: {
+                            text: '  ',
+                            subtext: '数据来源：日本厚生劳动省',
+                            left: 'center'
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['交通事故', '溺水', '中毒', '跌落', '烧伤/火灾']
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        toolbox: {
+                            feature: {
+                                saveAsImage: {}
+                            }
+                        },
+                        xAxis: {
+                            type: 'category',
+                            data: ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016']
+                        },
+                        yAxis: {
+                            type: 'value'
+                        },
+                        series: [{
+                                name: '交通事故',
+                                type: 'line',
+                                step: 'middle',
+                                data: [11, 9.7, 8.7, 7.8, 7.6, 7.3, 6.4, 6.2, 5.8, 5.2, 5.1]
+                            }, {
+                                name: '溺水',
+                                type: 'line',
+                                step: 'middle',
+                                data: [3.1, 3.2, 3.6, 3.2, 2.6, 2.3, 2.5, 2.2, 2.1, 2.4, 2.1]
+                            },
+
+                            {
+                                name: '中毒',
+                                type: 'line',
+                                step: 'middle',
+                                data: [0.2, 0.2, 0.3, 0.4, 0.3, 0.3, 0.1, 0.1, 0.2, 0.1, 0.1]
+                            }, {
+                                name: '跌落',
+                                type: 'line',
+                                step: 'middle',
+                                data: [1.2, 1, 1.4, 1.3, 1.2, 0.8, 0.7, 0.5, 0.9, 0.6, 0.6]
+                            }, {
+                                name: '烧伤/火灾',
+                                type: 'line',
+                                step: 'middle',
+                                data: [1.1, 1.2, 1.2, 0.6, 1, 0.60, 0.7, 0.4, 0.4, 0.4, 0.2]
+                            },
+
+
+
+                        ]
+                    };
+                    // 使用刚指定的配置项和数据显示图表。
+                    myChart.setOption(option);
+                </script>
+                <p>&nbsp;</p>
+                <div class="tubiao-title">
+                    <h2>韩国</h2>
+                </div>
+                <div id="tubiao5" style="weight:500px;height:300px"></div>
+                <script type="text/javascript">
+                    // 基于准备好的dom，初始化echarts实例
+                    var myChart = echarts.init(document.getElementById('tubiao5'));
+
+                    // 指定图表的配置项和数据
+                    var option = {
+                        color: ['#4183D7', '#FF9D8E', '#C1DCF9', '#FFE1D1', '#395469'],
+                        title: {
+                            text: '  ',
+                            subtext: '数据来源：韩国数据信息服务网站（KOSIS）',
+                            left: 'center'
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['交通事故', '溺水', '中毒', '跌落', '烧伤/火灾']
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        toolbox: {
+                            feature: {
+                                saveAsImage: {}
+                            }
+                        },
+                        xAxis: {
+                            type: 'category',
+                            data: ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016']
+                        },
+                        yAxis: {
+                            type: 'value'
+                        },
+                        series: [{
+                                name: '交通事故',
+                                type: 'line',
+                                step: 'middle',
+                                data: [21.3, 20.4, 17.9, 16.1, 17.2, 14.6, 12.7, 10.9, 13, 10.1, 10]
+                            }, {
+                                name: '溺水',
+                                type: 'line',
+                                step: 'middle',
+                                data: [4.6, 4.4, 4.6, 3.2, 2.9, 2.7, 3.3, 3, 3.1, 1.6, 2.1]
+                            },
+
+                            {
+                                name: '中毒',
+                                type: 'line',
+                                step: 'middle',
+                                data: [0.4, 0.2, 0.2, 0.3, 0.3, 0.1, 0.1, 0.1, 0.1, 0, 0.1]
+                            }, {
+                                name: '跌落',
+                                type: 'line',
+                                step: 'middle',
+                                data: [4.5, 3.5, 3.4, 2.8, 2.9, 2.8, 3.2, 3, 2.9, 2, 1.7]
+                            }, {
+                                name: '烧伤/火灾',
+                                type: 'line',
+                                step: 'middle',
+                                data: [1.7, 0.4, 0.8, 0.4, 0.9, 0.9, 0.9, 1, 0.6, 0.7, 0.5]
+                            },
+
+
+
+                        ]
+                    };
+                    // 使用刚指定的配置项和数据显示图表。
+                    myChart.setOption(option);
+                </script>
+                <p>&nbsp;</p>
+                <div class="tubiao-title">
+                    <h2>美国</h2>
+                </div>
+                <div id="tubiao6" style="weight:500px;height:300px"></div>
+                <script type="text/javascript">
+                    // 基于准备好的dom，初始化echarts实例
+                    var myChart = echarts.init(document.getElementById('tubiao6'));
+
+                    // 指定图表的配置项和数据
+                    var option = {
+                        color: ['#4183D7', '#FF9D8E', '#C1DCF9', '#FFE1D1', '#395469'],
+                        title: {
+                            text: '',
+                            subtext: '数据来源：美国疾病预防和控制中心（CDC）',
+                            left: 'center'
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['交通事故', '溺水', '中毒', '跌落', '烧伤/火灾']
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        toolbox: {
+                            feature: {
+                                saveAsImage: {}
+                            }
+                        },
+                        xAxis: {
+                            type: 'category',
+                            data: ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016']
+                        },
+                        yAxis: {
+                            type: 'value'
+                        },
+                        series: [{
+                                name: '交通事故',
+                                type: 'line',
+                                step: 'middle',
+                                data: [8.83, 8.36, 6.82, 6.13, 5.54, 5.37, 5.14, 4.76, 4.83, 5.03, 5.27]
+                            }, {
+                                name: '溺水',
+                                type: 'line',
+                                step: 'middle',
+                                data: [1.31, 1.28, 1.24, 1.18, 1.23, 1.17, 1.18, 1.05, 1.09, 1.05, 1.18]
+                            },
+
+                            {
+                                name: '中毒',
+                                type: 'line',
+                                step: 'middle',
+                                data: [1.02, 1.17, 1.14, 0.99, 1.01, 1.01, 0.84, 0.79, 0.77, 0.93, 1.04]
+                            }, {
+                                name: '跌落',
+                                type: 'line',
+                                step: 'middle',
+                                data: [0.22, 0.22, 0.2, 0.18, 0.15, 0.17, 0.16, 0.15, 0.13, 0.15, 0.14]
+                            }, {
+                                name: '烧伤/火灾',
+                                type: 'line',
+                                step: 'middle',
+                                data: [0.6, 0.66, 0.51, 0.47, 0.44, 0.39, 0.31, 0.41, 0.35, 0.32, 0.35]
+                            },
+
+
+
+                        ]
+                    };
+                    // 使用刚指定的配置项和数据显示图表。
+                    myChart.setOption(option);
+                </script>
+
+
+                <div class="tubiao-text">
+                    <p>
+                        <center>[图3-1 中国、日本、韩国、美国每年分类型的意外伤害死亡率（2006-2016）单位：1/10万]</center>
+                    </p>
+                </div>
+
+
+                <div class="text">
+                    <p>不同年龄段的孩子，意外死亡的主要原因也有所不同。<strong>0-4岁的孩子更易遭受溺水、窒息；而15-19岁的青少年们更易因交通意外死亡。</strong></p>
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="gra4">
+                    <div id="tubiao7" style="weight:400px;height:400px"></div>
+                    <script type="text/javascript">
+                        // 基于准备好的dom，初始化echarts实例
+                        var myChart = echarts.init(document.getElementById('tubiao7'));
+
+                        // 指定图表的配置项和数据
+                        var value = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+                        var days = ['0-4岁', '5-9岁', '10-14岁',
+                            '15-19岁'
+                        ]
+
+                        var data = [
+                            [0, 8.777, 8.777],
+                            [0, 1.516, 1.516],
+                            [0, 0.94, 0.94],
+                            [0, 2.33, 2.33],
+                            [1, 3.45, 3.45],
+                            [1, 1.254, 1.254],
+                            [1, 0.75, 0.75],
+                            [1, 0.65, 0.65],
+                            [2, 3.701, 3.701],
+                            [2, 1.236, 1.236],
+                            [2, 0.62, 0.62],
+                            [2, 0.5, 0.5],
+                            [3, 2.113, 2.113],
+                            [3, 2.4, 2.4],
+                            [3, 0.93, 0.93],
+                            [3, 1.25, 1.25]
+                        ];
+
+                        option = {
+                            color: ['#4183D7', '#FFE1D1', '#C1DCF9', '#FF9D8E', '#395469'],
+                            tooltip: {
+                                position: 'top'
+                            },
+                            title: [],
+                            singleAxis: [],
+                            series: []
+                        };
+
+                        echarts.util.each(days, function(day, idx) {
+                            option.title.push({
+                                textBaseline: 'middle',
+                                top: (idx + 0.5) * 100 / 4 + '%',
+                                text: day
+                            });
+                            option.singleAxis.push({
+                                left: 80,
+                                type: 'value',
+                                boundaryGap: false,
+                                data: value,
+                                top: (idx * 100 / 4 + 5) + '%',
+                                height: (100 / 4 - 10) + '%',
+                                axisLabel: {
+                                    interval: -100
+                                }
+                            });
+                            option.series.push({
+                                singleAxisIndex: idx,
+                                coordinateSystem: 'singleAxis',
+                                type: 'scatter',
+                                data: [],
+                                symbolSize: function(dataItem) {
+                                    return dataItem[0] * 10;
+                                }
+                            });
+                        });
+
+                        echarts.util.each(data, function(dataItem) {
+                            option.series[dataItem[0]].data.push([dataItem[2], dataItem[3]]);
+                        });
+                        // 使用刚指定的配置项和数据显示图表。
+                        myChart.setOption(option);
+                    </script>
+                </div>
+                <div class="tubiao-text">
+                    <p>
+                        <center>[图3-2 中国、日本、韩国、美国分年龄段的溺水意外伤害死亡率（2006-2016平均值）单位：1/10万]</center>
+                    </p>
+                </div>
+                <p>&nbsp;</p>
+                <div id="ai">
+                    <div id="aiai" style="weight:400px;height:400px"></div>
+                    <script type="text/javascript">
+                        // 基于准备好的dom，初始化echarts实例
+                        var myChart = echarts.init(document.getElementById('aiai'));
+
+                        // 指定图表的配置项和数据
+                        var value = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+                        var days = ['0-4岁', '5-9岁', '10-14岁',
+                            '15-19岁'
+                        ]
+
+                        var data = [
+                            [0, 7.81, 7.81],
+                            [0, 1.927, 1.927],
+                            [0, 3.06, 3.06],
+                            [0, 2.87, 2.87],
+                            [1, 4.03, 4.03],
+                            [1, 1.972, 1.972],
+                            [1, 2.23, 2.23],
+                            [1, 0.24, 0.24],
+                            [2, 2.555, 2.555],
+                            [2, 1.272, 1.272],
+                            [2, 1.45, 1.45],
+                            [2, 2.84, 2.84],
+                            [3, 5.61, 5.61],
+                            [3, 8.927, 8.927],
+                            [3, 7, 7],
+                            [3, 15.49, 15.49]
+                        ];
+
+                        option = {
+                            color: ['#4183D7', '#FFE1D1', '#C1DCF9', '#FF9D8E', '#395469'],
+                            tooltip: {
+                                position: 'top'
+                            },
+                            title: [],
+                            singleAxis: [],
+                            series: []
+                        };
+
+                        echarts.util.each(days, function(day, idx) {
+                            option.title.push({
+                                textBaseline: 'middle',
+                                top: (idx + 0.5) * 100 / 4 + '%',
+                                text: day
+                            });
+                            option.singleAxis.push({
+                                left: 80,
+                                type: 'value',
+                                boundaryGap: false,
+                                data: value,
+                                top: (idx * 100 / 4 + 5) + '%',
+                                height: (100 / 4 - 10) + '%',
+                                axisLabel: {
+                                    interval: -100
+                                }
+                            });
+                            option.series.push({
+                                singleAxisIndex: idx,
+                                coordinateSystem: 'singleAxis',
+                                type: 'scatter',
+                                data: [],
+                                symbolSize: function(dataItem) {
+                                    return dataItem[0] * 10;
+                                }
+                            });
+                        });
+
+                        echarts.util.each(data, function(dataItem) {
+                            option.series[dataItem[0]].data.push([dataItem[2], dataItem[3]]);
+                        }); // 使用刚指定的配置项和数据显示图表。
+                        myChart.setOption(option);
+                    </script>
+                </div>
+                <div class="tubiao-text">
+                    <p>
+                        <center>[图3-3 中国、日本、韩国、美国分年龄段的交通事故意外伤害死亡率（2006-2016平均值）单位：1/10万]<br />注：图3-2、图3-3数据来源：中国国家卫生和计划生育委员会 / 日本厚生劳动省 / 韩国数据信息服务网站（KOSIS） / 美国疾病预防和控制中心（CDC）</center>
+                    </p>
+                    <p>&nbsp;</p>
+                </div>
+
+
+            </div>
+            <!-- / contact -->
+        </div>
+
+        <div id="charu1">
+            <div class="textofcharu1">
+                <strong>对于低年龄段的孩子，溺水已经无可置喙地占据了意外死亡原因的“c位”。<br />
+            <a href="http://bj.people.com.cn/n2/2018/0806/c14540-31902192.html">2018年8月5日，暑假期间，一对8岁的双胞胎姐妹在青岛市黄岛区某处海滩失踪，<br />
+            隔日被发现已双双溺亡。</a><br />
+            <a href="https://v.qq.com/x/page/x07749xze0h.html">而在福建省福州市，又有一名母亲玩手机时忘了照顾宝宝，宝宝在水中扑腾，终因溺水脑死亡。</a></strong>
+            </div>
+        </div>
+
+
+        <div id="g">
+            <div class="container">
+                <div class="text">
+                    <p>对高年龄段的孩子来说，交通事故则是生命的最大威胁。</p>
+                    <p><strong><a href="http://www.who.int/violence_injury_prevention/child/injury/world_report/zh/">道路交通伤害已经是15-19岁年轻人的首要死因。</a></strong>这是为什么？</p>
+                    <p>一方面， 15-19岁青少年行动范围扩大，冒险心也更加强烈；另一方面，要归因于各国汽车保有量的节节攀升，人们驾车的意愿越来越强烈。<strong>交通开始变得拥挤，发生交通事故的概率也就大大增加了。</strong></p>
+                    <p>以汽车保有量分别为第二和第一的两个“汽车大国”——中国和美国为例：</p>
+                </div>
+                <!--/row-->
+            </div>
+            <!--/container-->
+        </div>
+        <!--/div-->
+
+        <div id="charu2">
+            <div class="textofcharu1">
+                <strong>在中国，许多刚满18岁的孩子一旦结束高考，便迫不及待报名学车，不出两月便拿下了机动车驾驶证；<br />若没拿下，则大学四年都要为“考驾照”东奔西忙。 <br />而在美国，早早便取得驾驶资格，能够自己开车上学甚至自驾游玩的高中生比比皆是。</strong>
+            </div>
+        </div>
+
+        <div id="g">
+            <div class="container">
+                <div class="text">
+                    <p>然而，<strong>交通法规的完善程度并没有跟上青少年的“开车热”，15-19岁的人群交通伤害死亡率亦居高不下。</strong></p>
+                    <div class="psimg">
+                        <center><img src="img/3-4.png" /></center>
+                    </div>
+                </div>
+                <div class="tubiao-text">
+                    <p>
+                        <center>[图3-4 中、美、日、韩汽车保有量&儿童交通意外伤害死亡率&交通法规数量对比图（2016）]</center>
+                    </p>
+                </div>
+                <!--/row-->
+            </div>
+            <!--/container-->
+        </div>
+        <!--/div-->
+
+        <div id="contact">
+            <div class="container">
+                <div class="pa-title">
+                    <h2 style="font-weight: bold">四、万恶之源：社会关怀的缺失</h2>
+                </div>
+                <div class="text">
+                    <p><strong><a href="http://news.163.com/18/0903/12/DQPEBL67000181IU.html">每年，有近两万名的中国儿童死于意外伤害</a></strong>。而“爱玩水”和“开车热”，绝非其根本原因。</p>
+                    <p><strong>社会关怀的缺失是万恶之源。</strong>上至政府，下至媒体、教育者、NGO组织等，大家心中总缺少对儿童意外伤害问题的<strong>宏观认识。</strong></p>
+                    <p>&nbsp;</p>
+                </div>
+                <div id="gra6">
+                    <div id="tubiao8" style="weight:500px;height:600px"></div>
+                    <script type="text/javascript">
+                        // 基于准备好的dom，初始化echarts实例
+                        var myChart = echarts.init(document.getElementById('tubiao8'));
+
+                        // 指定图表的配置项和数据
+                        var pathSymbols = {
+                            train: 'path://M67.335,33.596L67.335,33.596c-0.002-1.39-1.153-3.183-3.328-4.218h-9.096v-2.07h5.371 c-4.939-2.07-11.199-4.141-14.89-4.141H19.72v12.421v5.176h38.373c4.033,0,8.457-1.035,9.142-5.176h-0.027 c0.076-0.367,0.129-0.751,0.129-1.165L67.335,33.596L67.335,33.596z M27.999,30.413h-3.105v-4.141h3.105V30.413z M35.245,30.413 h-3.104v-4.141h3.104V30.413z M42.491,30.413h-3.104v-4.141h3.104V30.413z M49.736,30.413h-3.104v-4.141h3.104V30.413z  M14.544,40.764c1.143,0,2.07-0.927,2.07-2.07V35.59V25.237c0-1.145-0.928-2.07-2.07-2.07H-9.265c-1.143,0-2.068,0.926-2.068,2.07 v10.351v3.105c0,1.144,0.926,2.07,2.068,2.07H14.544L14.544,40.764z M8.333,26.272h3.105v4.141H8.333V26.272z M1.087,26.272h3.105 v4.141H1.087V26.272z M-6.159,26.272h3.105v4.141h-3.105V26.272z M-9.265,41.798h69.352v1.035H-9.265V41.798z',
+                        };
+
+                        var labelSetting = {
+                            normal: {
+                                show: true,
+                                position: 'right',
+                                offset: [10, 0],
+                                textStyle: {
+                                    fontSize: 10
+                                }
+                            }
+                        };
+
+
+                        option = {
+                            color: ['#FF9D8E', '#4183D7', '#C1DCF9', '#FFE1D1', '#395469'],
+                            title: {
+                                text: '  ',
+                                subtext: '数据来源：中国知网 / 北大法宝 / 百度学术',
+                                left: 'center'
+                            },
+                            legend: {
+                                data: ['调查报告', '中国知网论文']
+                            },
+                            tooltip: {
+                                trigger: 'axis',
+                                axisPointer: {
+                                    type: 'shadow'
+                                }
+                            },
+                            grid: {
+                                containLabel: true,
+                                left: 20
+                            },
+                            yAxis: {
+                                data: ['2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018'],
+                                inverse: true,
+                                axisLine: {
+                                    show: false
+                                },
+                                axisTick: {
+                                    show: false
+                                },
+                                axisLabel: {
+                                    margin: 30,
+                                    textStyle: {
+                                        fontSize: 12
+                                    }
+                                },
+                                axisPointer: {
+                                    label: {
+                                        show: true,
+                                        margin: 30
+                                    }
+                                }
+                            },
+                            xAxis: {
+                                splitLine: {
+                                    show: false
+                                },
+                                axisLabel: {
+                                    show: false
+                                },
+                                axisTick: {
+                                    show: false
+                                },
+                                axisLine: {
+                                    show: false
+                                }
+                            },
+                            series: [{
+                                name: '调查报告',
+                                type: 'pictorialBar',
+                                label: labelSetting,
+                                symbolRepeat: true,
+                                symbolSize: ['80%', '60%'],
+                                barCategoryGap: '40%',
+                                data: [{
+                                    value: 0,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 0,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 0,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 9,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 2,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 0,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 5,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 2,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 4,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 1,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 9,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 5,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 4,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 7,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 2,
+                                    symbol: pathSymbols.train
+                                }]
+                            }, {
+                                name: '中国知网论文',
+                                type: 'pictorialBar',
+                                barGap: '10%',
+                                label: labelSetting,
+                                symbolRepeat: true,
+                                symbolSize: ['80%', '60%'],
+                                data: [{
+                                    value: 79,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 108,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 132,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 126,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 102,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 127,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 94,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 113,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 152,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 144,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 144,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 149,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 144,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 134,
+                                    symbol: pathSymbols.train
+                                }, {
+                                    value: 98,
+                                    symbol: pathSymbols.train
+                                }]
+                            }]
+                        };
+                        // 使用刚指定的配置项和数据显示图表。
+                        myChart.setOption(option);
+                    </script>
+                </div>
+                <div class="tubiao-text">
+                    <p>
+                        <center>[图4-1 中国儿童意外伤害的调查报告&中国知网文献-数量和发行年度统计图（截止至2018）]</center>
+                    </p>
+                </div>
+
+                <div class="text">
+                    <p>由上图可知，虽然对儿童意外伤害问题的研究层出不穷（尤其在2012-2017年），<strong>但这些零散的研究缺乏整合</strong>，很少引起社会的广泛关注。对伤害问题进行更加系统、全面的阐述的调查报告更是少之又少。</p>
+                    <p><strong>不仅如此，连基础数据也存在监测、收集和管理上的诸多问题。</strong></p>
+                    <p><a href="http://www.nhfpc.gov.cn/zwgkzt/tjnj/list.shtml">中国卫生和计划生育委员会公布的《中国卫生统计年鉴》《中国卫生和计划生育统计年鉴》</a>只更新到2014年，<strong>2015-2017年的年鉴只能通过非官方渠道获得。即便有官方渠道，也难以寻觅。</strong>这对新闻媒体收集儿童意外伤害死亡率的数据带来很大的阻碍。</p>
+                    <p>另外，现有的关于0-19岁儿童的意外伤害死亡率的数据，<strong>基本由新闻媒体或NGO组织自行估算获得，缺乏权威统计机构的检验，</strong>且数据都较为陈旧。</p>
+                    <p><em><a href="http://www.who.int/violence_injury_prevention/child/injury/world_report/zh/">“良好的数据收集系统对于识别像狗咬这样的伤害来说是非常重要的，只有在拥有精准的数据信息时，对此类伤害的重视程度才会得到提高，而相应的预防措施才会被采纳。”——《世界预防儿童伤害报告》（2008）</a></em></p>
+                </div>
+            </div>
+        </div>
+        <!-- / contact -->
+
+        <div id="g">
+            <div class="container">
+                <div class="pa-title">
+                    <h2 style="font-weight: bold">五、探索解决之道</h2>
+                </div>
+
+                <div class="text">
+                    <p>数据很重要，但更重要的是如何运用数据解决问题。</p>
+                    <p>瑞典在解决儿童伤害问题方面行走于国际前列。他们建立了出色的数据监测系统，并在此基础上，将数据成果广泛应用于儿童伤害学术研究、更安全环境的管理和立法等。</p>
+                    <p>&nbsp;</p>
+                    <div class="psimg">
+                        <center><img src="img/5-1.png" /></center>
+                    </div>
+                    <div class="tubiao-text">
+                        <p>
+                            <center>[图5-1 瑞典通过不同机构的通力合作改善儿童伤害问题]</center>
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>&nbsp;</p>
+                    <p>在20 世纪50 年代，瑞典儿童伤害死亡率就高于美国，然而到了20 世纪80 年代末期，<strong>不到40年的时间，瑞典已经成为世界上儿童伤害死亡率最低的国家。</strong></p>
+                    <p>值得注意的是，<strong>世卫组织将“领导的重视程度”单独列出，</strong>作为瑞典取得成就重要原因之一。</p>
+                    <p><strong>儿童保护是瑞典的社会发展目标之一，瑞典政府对此怀有高度责任感。</strong></p>
+                    <p><strong>中国比之如何？</strong>2015年，<a href="http://www.who.int/bulletin/volumes/93/3/14-139998/en/">世界卫生组织曾发布了一篇文章，考察中国对儿童伤害问题的立法范围（Legislation coverage for child injury prevention in China），</a>一定程度上显示了上层机关不够重视儿童伤害问题。</p>
+                </div>
+            </div>
+            <!--/row-->
+        </div>
+        <!--/container-->
+    </div>
+    <!--/div-->
+
+    <div class="container btb">
+        <div class="bottom-text">
+            <p style="font-size:14px"><strong>团队成员</strong>：华南理工大学 何舒瑶、江嘉丽、佘海霞<br /><strong>成员联系方式</strong>：TEL: (+86)177-0190-4025<br /><strong>指导老师</strong>：华南理工大学 吴小坤</p>
+            <p style="font-size:14px"><strong>数据来源</strong>：<br /> <a href="http://www.who.int/violence_injury_prevention/child/injury/world_report/zh/">《世界预防儿童伤害报告》（2008）</a>
+                <br /> <a href="http://www.who.int/gho/database/zh/">全球卫生观察站的数据储存库</a>
+                <br /> <a href="http://www.nhfpc.gov.cn/zwgkzt/tjnj/list.shtml">《中国卫生统计年鉴》（2006-2013）</a>
+                <br /> 《中国卫生和计划生育统计年鉴》（2014-2017）（官网暂缺）
+                <br /> <a href="https://www.mhlw.go.jp/toukei_hakusho/hakusho/">日本卫生部：厚生劳动省 白皮书 （平成18年-平成28年）</a>
+                <br /> <a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/search?searchType=2&searchLawName=%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8&abbreviationFlg=true">日本電子政府の総合窓口</a>
+                <br /> <a href="http://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B34E07&vw_cd=MT_ZTITLE&list_id=D11&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE">数据信息服务（Korean Statistical Information Service）</a>
+                <br /> <a href="http://www.law.go.kr/LSW/eng/engLsSc.do?menuId=2&query=road#AJAX">韩国National Law Information Center</a>
+                <br /> <a href="https://www.cdc.gov/injury/wisqars/fatal.html">美国疾病预防和控制中心（CDC） WISQARS™ Fatal Injury Reports 1981-2016</a>
+                <br /> <a href="https://www.ecfr.gov/cgi-bin/ECFR?page=browse">美国Electronic Code of Federal Regulations</a></p>
+            <p style="font-size:14px"><strong>其他资料来源</strong>：<br /> <a href="http://www.jointpublishing.com/publishing/author-list/sun-yun-xiao/9789620430695.aspx">《男孩危機?!--男孩家長必讀手冊》（2014）</a>
+                <br /> <a href="http://news.163.com/18/0903/12/DQPEBL67000181IU.html">网易数读《儿童频繁溺亡，大多数家长对溺水一无所知》（2018）</a>
+                <br /> <a href="http://bj.people.com.cn/n2/2018/0806/c14540-31902192.html">人民网《北京双胞胎姐妹青岛海滩游玩失踪 警方:两人均无生命体征》（2018）</a>
+                <br /> <a href="https://v.qq.com/x/page/x07749xze0h.html">腾讯视频《孩子安全别大意·福建福州：女婴溺水90秒 妈妈旁边看手机》</a>
+                <br /> <a href="http://www.who.int/bulletin/volumes/93/3/14-139998/en/">世界卫生组织 Legislation coverage for child injury prevention in China</a>
+                <br />百度百科、百度学术、中国知网、北大法宝</p>
+            <p style="font-size:14px"><strong>图片来源</strong>：<br /><a>Unsplash</a></p>
+            <p style="font-size:14px"><button class="btn btn-conf btn-blue">Learn More</button></p>
+        </div>
+        <!--/row-->
+    </div>
+    <!--/container-->
+
+    <div id="copyrights">
+        <div class="container">
+            <p>
+                &copy; Copyrights <strong>Soon</strong>. All Rights Reserved
+            </p>
+            <div class="credits">
+                <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/soon-website-under-construction-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+                Created with Soon template by <a href="https://templatemag.com/">TemplateMag</a>
+            </div>
+        </div>
+    </div>
+    <!-- / copyrights -->
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/php-mail-form/validate.js"></script>
+    <script src="lib/countdown/jquery.plugin.min.js"></script>
+    <script src="lib/countdown/jquery.countdown.min.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
